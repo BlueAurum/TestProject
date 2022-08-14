@@ -1,0 +1,164 @@
+@media screen and (max-width: 1600px) {
+  .container {
+    padding: 0 15rem;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .container {
+    padding: 0 13rem;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .container {
+    padding: 0 13rem;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .container {
+    padding: 0 10rem;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .container {
+    padding: 0 2rem;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .header {
+    display: none;
+  }
+  .promo-header--item {
+    display: none;
+  }
+
+  .promo-header--logo,
+  .promo-header--schedule {
+    display: block;
+  }
+  .promo-header--schedule {
+    margin-left: auto;
+  }
+  .promo-header--schedule .call-me {
+    text-align: center;
+  }
+  .hamburger-menu {
+    display: block;
+    margin-left: 5rem;
+    z-index: 9999;
+  }
+  .mobile-menu {
+    display: flex;
+    top: -100%;
+  }
+  .mobile-menu.active {
+    top: 0;
+  }
+  .promo-content {
+    column-gap: 3rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .promo-content {
+    padding-top: 3rem;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .h1 {
+    width: 100% !important;
+    text-align: center;
+  }
+  .promo-content--info {
+    display: flex;
+    flex-direction: column;
+  }
+  .wrapper-btns,
+  .dotted-wrapper {
+    justify-content: center;
+  }
+  .wrapper-btns {
+    order: 3;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1.2rem;
+  }
+  .btn {
+    width: 100% !important;
+  }
+  .promo-content-subtitle {
+    order: 2;
+    margin: 0 auto !important;
+    margin-top: 3.3rem !important;
+    width: 33rem !important;
+  }
+  .promo-sidebar {
+    margin-top: 7rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+    .promo-content .promo-content--info .h1{
+        font-size: 4rem;
+    }
+    .hamburger-menu{
+        margin-left: 3rem;
+        flex-shrink: 0;
+    }
+    .promo-header--logo{
+        width: 100px !important;
+        overflow: hidden;
+        object-fit: cover;
+    }
+    .logo-img{
+        width: 100%;
+        height: 100%;
+    }
+    .promo-header--schedule{
+        padding-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .container{
+        padding: 0 1rem;
+    }
+    .h1{
+        font-size: 2.6rem !important;
+    }
+    .dotted-text{
+        font-size: 2rem !important;
+    }
+    .schedule{
+        font-size: 1rem;
+    }
+    .phone-link{
+        font-size: 1.4rem !important;
+    }
+    .promo-content-subtitle{
+        width: 100% !important;
+    }
+}
+
+
+@media screen and (max-width: 320px){
+    .container{
+        padding: 0 1rem;
+    }
+    .h1{
+        font-size: 2.2rem !important;
+    }
+    .promo-content-subtitle{
+        margin-top: 2rem !important;
+    }
+    .hamburger-menu{
+        margin-left: 1rem;
+    }
+    .schedule{
+        font-size: 0.9rem;
+    }
+}
